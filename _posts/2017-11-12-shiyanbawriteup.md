@@ -1,15 +1,31 @@
-1.CFG to C
+---
+layout:     post
+title:      "实验吧 re 3题writeup"
+subtitle:   "shiyanba re three questions writeup"
+date:       2017-11-12 12:00:00
+author:     "fa1con"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - re
+    - bin
+---
+> 1.CFG to C
+
 题目连接http://ctf5.shiyanbar.com/reverse/cfg-to-c/index.html  
 1）%ebp的值与0相比，大于等于则跳转至func_80484F8并减1回到该判断处，可以得出是B）  
 2）%ebp与%eax比较，结果根据不同调至不同分支，并且返回不同的值，为C）  
 3）这个比较难，因为我学的汇编语法与其并不是完全相同，只能看个大概，图中第二个框是判断过程，即比较i < b,因此12（%ebp）是i，%eax是b，而func_8048516中，%edi为i，%eax为c，顺便推出-4（%ebp）为c，由mov %eax，8（%ebp）得出8（%ebp）为a，-0x4(%ebp)则为i，答案为D  
 4）很简单，为A
 
-2.babyCrack  
+> 2.babyCrack 
+
 链接： http://ctf5.shiyanbar.com/re/babyCrack.exe
 直接开IDA不知为何找不到任何的字符串程序也无法进行F5，但是看了一会直接找到flag![image](http://ww3.sinaimg.cn/large/0060lm7Tly1flfd28yfuhj311y0lcmzp.jpg)
 
-3.证明自己吧  
+> 3.证明自己吧  
+
 链接：http://ctf5.shiyanbar.com/crackme/  
 1.IDA查找字符串![image](http://ww3.sinaimg.cn/large/0060lm7Tly1flfel39m5wj311y0lc421.jpg)
 2.F5这时候看到了GoodKey这个if函数很可能就是核心算法。进入sub_401060 ![image](http://ww3.sinaimg.cn/large/0060lm7Tly1flfizsezfzj311y0lcgo2.jpg) 
