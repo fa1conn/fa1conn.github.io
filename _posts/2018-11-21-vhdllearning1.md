@@ -66,3 +66,8 @@ variable character_var: character:='A';
 ### 5.整数(integer)
 VHDL综合器要求对具体的整数作出范围限定,否则无法综合成硬件电路。
 如：signal sig: interger 0 to 15:=2;  --必须指定范围
+### 6.标准逻辑位（STD_LOGIC）
+BIT数据类型的扩展，可以取值'U','X','0','1','Z','W','L','H','-'等。
+### 7.标准逻辑位向量(STD_LOGIC_VECTOR)
+##注意
+相同类型(模型相同，数据类型相同)的端口可以写在同一行，详见笔记二。
