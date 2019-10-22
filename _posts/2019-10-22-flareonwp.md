@@ -27,3 +27,6 @@ for i in range(len(eql)):
 print "RAINBOW"
 print key
 ```
+# 2 - Overlong
+只弹出部分字符，将长度0x1C patch 成0x4C，运行得flag
+![image](/picture/4.png)
