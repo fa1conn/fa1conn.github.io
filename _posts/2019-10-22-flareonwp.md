@@ -13,7 +13,7 @@ tags:
 ---
 # 1：MemeCatBattlestation
 搜字符，发现对应函数，可以查看调用函数
-![image](https://github.com/fa1conn/fa1conn.github.io/tree/master/_posts/picture/1.png)
+![image](./picture/1.png)
 两关，stage1From和stage2From
 ![image](https://github.com/fa1conn/fa1conn.github.io/tree/master/_posts/picture/3.png)
 明文存储
