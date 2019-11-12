@@ -104,3 +104,7 @@ D3DXMatrixTranslation(&mTrans,0,0,5);
 ![image](/picture/10.png)
 可能需要稍微改大一点，这里就不搞了
 ![image](/picture/11.png)
+
+# 6 - bmphide
+题目提醒了隐写
+跳过，以后填坑
