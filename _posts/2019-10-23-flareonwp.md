@@ -2,7 +2,7 @@
 layout:     post
 title:      "flare on6-challenge"
 subtitle:   "flare on6-challenge"
-date:       2019-10-22 12:00:00
+date:       2019-10-23 12:00:00
 author:     "fa1con"
 header-img: ""
 header-mask: 0.3
