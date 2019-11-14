@@ -11,6 +11,7 @@ tags:
     - re
     - bin
 ---
+{:toc}
 # 1：MemeCatBattlestation
 C#逆向，搜字符，发现对应函数，可以查看调用函数
 ![image](/picture/1.png)
