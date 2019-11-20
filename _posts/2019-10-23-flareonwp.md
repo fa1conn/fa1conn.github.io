@@ -893,7 +893,7 @@ else:
 ```
 注意到b == h
 wrong函数里第一行`windll.kernel32.GetModuleHandleW(None)`，参数是None的时候返回进程本身的句柄，所以应该先加载这个程序，然后脚本去读取句柄
-wrong()函数第一行改成这样,然后挂载程序，必须注意的是程序是32位的，所以python3对应的也必须是
+wrong()函数第一行改成这样,然后挂载程序，必须注意的是程序是32位的，所以python3对应的也必须是32位的
 `trust = pydll.LoadLibrary(r'C:\Users\fa1con\learn\ctf\Flare-On6_Challenges\7 - wopr\7 - wopr\wopr.exe')._handle`
 然后z3解
 ```
