@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      "D^3CTF SIMD writeup"
+subtitle:   "D^3CTF SIMD writeup"
+date:       2019-11-14 12:00:00
+author:     "fa1con"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - D^3CTF
+    - re
+    - bin
+---
 # 前言
 第二次出大比赛的题目，今年因为个人原因出了一道比较无聊的题目，代码本来是想参加密码学技术竞赛的，结果因为一些原因咕咕咕了,然后稍微改了一下就拿过来用了
 # 题解
